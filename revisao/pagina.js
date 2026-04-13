@@ -1,24 +1,20 @@
 function pagina(){
-    // cria o título
+    
     const titulo = document.createElement("h2");
     titulo.textContent = "Lista de Tarefas";
 
-    // cria o input
     const input = document.createElement("input");
     input.type = "text";
     input.id = "tarefaInput";
     input.placeholder = "Digite uma tarefa";
 
-    // cria o botão
     const botao = document.createElement("button");
     botao.id = "btnAdicionar";
     botao.textContent = "Adicionar";
 
-    // cria a lista
     const lista = document.createElement("ul");
     lista.id = "listaTarefas";
 
-    	// adiciona tudo no body
     document.body.appendChild(titulo);
     document.body.appendChild(input);
     document.body.appendChild(botao);
